@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content="Intro section with dropdown navigation">
+  <meta name="author" content="Jelena Randjelovic">
+  <meta name="keywords" content="Intro section, dropdown navigation, frontend mentor, snap">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <!--Logo-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!--Css-->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+  <!--NAVIGATION-->
+  <nav class="nav">
+    <img src="images/logo.svg" alt="snap logo" class="logo"/>
+    <div class="navigation-container">
+      <ul class="nav-list">
+        <li class="close-item">
+          <img src="images/icon-close-menu.svg" id="close-menu-btn"class="close-menu-btn"alt="x icon, close menu button"/>
+        </li>
+        <li class="nav-item">
+          <div class="nav-item-name">
+            <a href="#" class="nav-link drop">Features</a>
+            <img src="images/icon-arrow-down.svg" class="arrow arrow-down" alt="arrow pointing down"/>
+          </div>
+          <div class="dropdown-menu">
+            <ul class="drop-down-list">
+              <li class="nav-item">
+                <img src="images/icon-todo.svg" class="drop-down-icon"alt="icon of list"/>
+                <a href="#" class="nav-link">Todo List</a>
+              </li>
+              <li class="nav-item">
+                <img src="images/icon-calendar.svg" class="drop-down-icon"alt="icon of calender"/>
+                <a href="#" class="nav-link">Calender</a>
+              </li>
+              <li class="nav-item">
+                <img src="images/icon-reminders.svg" class="drop-down-icon"alt="icon of bell"/>
+                <a href="#" class="nav-link">Reminders</a>
+              </li>
+              <li class="nav-item">
+                <img src="images/icon-planning.svg" class="drop-down-icon"alt="icon of clock"/>
+                <a href="#" class="nav-link">Planning</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="nav-item-name">
+            <a href="#" class="nav-link drop">Company</a>
+            <img src="images/icon-arrow-down.svg" class="arrow arrow-down" alt="arrow pointing down"/>
+          </div>
+            <div class="dropdown-menu">
+            <ul class="dropdown-list">
+              <li class="nav-item">
+                <a href="#" class="nav-link">History</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link">Careers</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+       
+      </ul>
+      <ul class="reg-list">
+        <li class="reg-item">
+          <button type="button" id="login-btn" class="btn  btn-normal">Login</button>
+        </li>
+        <li class="reg-item">
+          <button type="button" id="register-btn" class="btn  btn-bordered">Register</button>
+        </li>
+      </ul>
+    </div>
+    <img src="images/icon-menu.svg" id="dropdown-btn"class="dropdown-btn"alt="hamburger icon, dropdown menu button"/>
+  </nav>
+  <main class="main">
+    <!--INFO SECTION-->
+    <section class="section info-section" role="main">
+      <h1 class="main-heading"><span>Make </span>  remote work </h1>
+      <p class="text">
+        Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.
+      </p>
+      <button type="button" id="learn-more-btn">Learn more</button>
+      <div class="company-logos">
+        <div class="company-logo">
+          <img src="images/client-databiz.svg" alt="databiz company logo"/>
+        </div>
+        <div class="company-logo">
+          <img src="images/client-audiophile.svg" alt="audiophile company logo"/>
+        </div>
+        <div class="company-logo">
+          <img src="images/client-meet.svg" alt="meet company logo"/>
+        </div>
+        <div class="company-logo">
+          <img src="images/client-maker.svg" alt="maker company logo"/>
+        </div>
+      </div>
+    </section>
+    <!--IMAGE SECTION-->
+    <section class="section image-section">
+    
+    </section>
+  </main>
+ 
+  <!--JavaScript File-->
+  <script src="js/main.js"></script>
+</body>
+</html>
